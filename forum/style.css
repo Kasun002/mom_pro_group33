@@ -1,0 +1,270 @@
+body{
+	background-image: url(background1.jpg);
+	
+	background-repeat: no-repeat;
+	color: #376bb6;
+}
+#wrapper{
+	width: 1320px;
+	height: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: none;
+	border-width: thin;
+
+}
+
+#header{
+	
+	width: 1320px;
+	height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: none;
+	border-width: thin;
+
+
+}
+
+#bottom{
+	width: 1320px;
+	height: 100px;
+	float: bottom;
+	border-style: none;
+}
+
+#in{
+	margin-left: 350px;
+	margin-right: 350px;
+}
+
+#profileBar{
+	margin-top: 80px;
+	width: 300px;
+	height: 600px;	
+	border-style: solid;
+	border-width: 5px; 
+	margin-left: 50px;
+	padding: 20px; 
+
+
+}
+
+h1{
+	color: #376bb6;
+}
+
+hr{
+	color: #376bb6;
+	border-width: 5px;
+}
+
+#leftBar{
+	width: 300px;
+	height: 600px;	
+	border-style: none;
+	border-width: thin; 
+	float: left;
+	margin-top: 80px;
+	
+}
+
+#adminmenu{
+	width: 300px;
+	height: 670px;	
+	border-style: solid;
+	border-width: 5px; 
+	float: left;
+	margin-top: 80px;
+	padding: 20px;
+	
+}
+
+#admindetails{
+	width: 920px;
+	float: right;
+	height: 670px;
+	border-style: solid;
+	border-width: 5px;
+	margin-top: 80px;
+	padding: 20px;
+}
+
+
+#leftBar2{
+	width: 00px;
+	height: 600px;	
+	border-style: none;
+	border-width: thin; 
+	float: left;
+}
+
+#rightBar{
+	width: 320px;
+	height: 600px;
+	border-style: none;
+	border-width: thin; 
+	float: right;
+
+}
+
+
+#centerBar{
+	
+	height: 750px;
+	margin-right: 340px;
+	margin-left: 350px;
+	border-style: none;
+	border-width: thin; 
+	float: center;
+
+}
+
+#registerBar{
+	
+	height: 600px;
+	margin-right: 400px;
+	margin-left: 500px;
+	margin-top: 100px;
+	border-style: none;
+	border-width: thin; 
+	float: center;
+
+}
+
+
+#nav{
+	list-style-type: none;
+	padding: 10px; 
+}
+
+.linav{
+	float: left; 
+}
+
+.links{
+
+	padding: 20px;
+	color: #376bb6;
+}
+
+a.nav:link, a.nav:visited{
+	display: block;
+	width: 175px;
+	font-weight:italic;
+	color: #376bb6;
+	background-color: none;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;
+	font-size:20px;
+
+
+}
+
+
+
+a.nav:hover, a.nav:active{
+	background-color: #b5d3ed;
+
+}
+
+
+a.btn:link, a.btn:visited{
+	display: block;
+	width: 250px;
+	font-weight:italic;
+	color: #376bb6;
+	background-color: none;
+
+	padding: 20px;
+	text-decoration: none;
+
+}
+
+
+
+a.btn:hover, a.btn:active{
+	background-color: #b5d3ed;
+
+}
+
+.shout_box {
+	background: #627BAE;
+	width: 260px;
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+	right: 2%;
+	z-index:9;
+}
+.shout_box .header .close_btn {
+	background: url(images/close_btn.png) no-repeat 0px 0px;
+	float: right;
+	width: 15px;
+	height: 15px;
+}
+.shout_box .header .close_btn:hover {
+	background: url(images/close_btn.png) no-repeat 0px -16px;
+}
+
+.shout_box .header .open_btn {
+	background: url(images/close_btn.png) no-repeat 0px -32px;
+	float: right;
+	width: 15px;
+	height: 15px;
+}
+.shout_box .header .open_btn:hover {
+	background: url(images/close_btn.png) no-repeat 0px -48px;
+}
+.shout_box .header{
+	padding: 5px 3px 5px 5px;
+	font: 11px 'lucida grande', tahoma, verdana, arial, sans-serif;
+	font-weight: bold;
+	color:#fff;
+	border: 1px none rgba(0, 39, 121, .76);
+	border-bottom:none;
+	cursor: pointer;
+}
+.shout_box .header:hover{
+	background-color: #627BAE;
+}
+.shout_box .message_box {
+	background: #FFFFFF;
+	height: 200px;
+	overflow:auto;
+	border: 1px none #CCC;
+}
+.shout_msg{
+	margin-bottom: 10px;
+	display: block;
+	border-bottom: 1px none #F3F3F3;
+	padding: 0px 5px 5px 5px;
+	font: 11px 'lucida grande', tahoma, verdana, arial, sans-serif;
+	color:#7C7C7C;
+}
+.message_box:last-child {
+	border-bottom:none;
+}
+time{
+	font: 11px 'lucida grande', tahoma, verdana, arial, sans-serif;
+	font-weight: normal;
+	float:right;
+	color: #D5D5D5;
+}
+.shout_msg .username{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.user_info input {
+	width: 98%;
+	height: 25px;
+	border: 1px none #CCC;
+	border-top: none;
+	padding: 3px 0px 0px 3px;
+	font: 11px 'lucida grande', tahoma, verdana, arial, sans-serif;
+}
+.shout_msg .username{
+	font-weight: bold;
+	display: block;
+}
